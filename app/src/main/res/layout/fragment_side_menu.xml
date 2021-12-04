@@ -26,6 +26,10 @@
             name="viewModel"
             type="com.example.lunchtray.model.OrderViewModel" />
 
+        <variable
+            name="sideMenuFragment"
+            type="com.example.lunchtray.ui.order.SideMenuFragment" />
+
         <!-- TODO: Add the data binding variable for the SideMenuFragment -->
     </data>
 

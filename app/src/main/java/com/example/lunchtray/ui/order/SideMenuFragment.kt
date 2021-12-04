@@ -57,6 +57,7 @@ class SideMenuFragment : Fragment() {
         binding.apply {
             lifecycleOwner = viewLifecycleOwner
             viewModel = sharedViewModel
+            sideMenuFragment = this@SideMenuFragment
             // TODO: initialize the SideMenuFragment variables
         }
     }

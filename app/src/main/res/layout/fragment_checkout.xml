@@ -21,6 +21,15 @@
     android:id="@+id/layout_checkout"
     tools:context=".ui.order.CheckoutFragment">
 
+    <data>
+        <variable
+            name="orderViewModel"
+            type="com.example.lunchtray.model.OrderViewModel" />
+
+        <variable
+            name="checkoutFragment"
+            type="com.example.lunchtray.ui.order.CheckoutFragment" />
+    </data>
     <!-- TODO: Add the data binding variables of the type OrderViewModel and the CheckoutFragment -->
 
     <ScrollView

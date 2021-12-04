@@ -26,6 +26,9 @@
             name="viewModel"
             type="com.example.lunchtray.model.OrderViewModel" />
 
+        <variable
+            name="accompanimentMenuFragment"
+            type="com.example.lunchtray.ui.order.AccompanimentMenuFragment" />
         <!-- TODO: Add the data binding variable for the AccompanimentMenuFragment -->
     </data>
 
