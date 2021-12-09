@@ -25,7 +25,7 @@
         android:id="@+id/startOrderFragment"
         android:name="com.example.lunchtray.ui.order.StartOrderFragment"
         android:label="fragment_start_order"
-        tools:layout="@layout/fragment_start_order" >
+        tools:layout="@layout/fragment_start_order">
         <action
             android:id="@+id/action_startOrderFragment_to_entreeMenuFragment"
             app:destination="@id/entreeMenuFragment" />

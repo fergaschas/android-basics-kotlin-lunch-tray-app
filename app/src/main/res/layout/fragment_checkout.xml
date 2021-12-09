@@ -54,7 +54,8 @@
                 style="@style/Widget.LunchTray.TextView.CheckoutItem.Info"
                 app:layout_constraintStart_toStartOf="parent"
                 app:layout_constraintTop_toBottomOf="@id/order_summary"
-                tools:text="Cauliflower" />
+                tools:text="Cauliflower"
+                android:text="@{orderViewModel.entree.name}"/>
 
             <!-- TODO: display the entree price based on the entree selection -->
             <TextView
@@ -62,7 +63,8 @@
                 style="@style/Widget.LunchTray.TextView.CheckoutItem.Info"
                 app:layout_constraintEnd_toEndOf="parent"
                 app:layout_constraintTop_toTopOf="@id/entree_selection"
-                tools:text="$7.00"/>
+                tools:text="$7.00"
+                android:text="@{orderViewModel.entree.formattedPrice}"/>
 
             <!-- TODO: display the side name based on the side selection -->
             <TextView
@@ -70,7 +72,8 @@
                 style="@style/Widget.LunchTray.TextView.CheckoutItem.Info"
                 app:layout_constraintStart_toStartOf="parent"
                 app:layout_constraintTop_toBottomOf="@id/entree_selection"
-                tools:text="Spicy Potatoes" />
+                tools:text="Spicy Potatoes"
+                android:text="@{orderViewModel.side.name}"/>
 
             <!-- TODO: display the side price based on the side selection -->
             <TextView
@@ -78,7 +81,8 @@
                 style="@style/Widget.LunchTray.TextView.CheckoutItem.Info"
                 app:layout_constraintEnd_toEndOf="parent"
                 app:layout_constraintTop_toTopOf="@id/side_selection"
-                tools:text="$2.00"/>
+                tools:text="$2.00"
+                android:text="@{orderViewModel.side.formattedPrice}"/>
 
             <!-- TODO: display the accompaniment name based on the accompaniment selection -->
             <TextView
@@ -86,7 +90,8 @@
                 style="@style/Widget.LunchTray.TextView.CheckoutItem.Info"
                 app:layout_constraintStart_toStartOf="parent"
                 app:layout_constraintTop_toBottomOf="@id/side_selection"
-                tools:text="Mixed Berries" />
+                tools:text="Mixed Berries"
+                android:text="@{orderViewModel.accompaniment.name}"/>
 
             <!-- TODO: display the accompaniment price based on the accompaniment selection -->
             <TextView
@@ -94,7 +99,8 @@
                 style="@style/Widget.LunchTray.TextView.CheckoutItem.Info"
                 app:layout_constraintEnd_toEndOf="parent"
                 app:layout_constraintTop_toTopOf="@id/accompaniment_selection"
-                tools:text="$1.00"/>
+                tools:text="$1.00"
+                android:text="@{orderViewModel.accompaniment.formattedPrice}"/>
 
             <View
                 android:id="@+id/divider"
